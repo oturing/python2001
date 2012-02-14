@@ -1,0 +1,10 @@
+Python 2.0.1 (#0, Jun 23 2001, 23:50:30) 
+[GCC 2.95.4 20010319 (Debian prerelease)] on linux2
+Type "copyright", "credits" or "license" for more information.
+IDLE 0.6 -- press F1 for help
+>>> import dblivros
+>>> dblivros.lista[0]
+{'Editora': 'New Riders Publishing', 'Autores': ('Amos Latteier', 'Michel Pelletier'), 'ISBN': '0735711372', 'Paginas': 384, 'Titulo': 'The Zope Book', 'Preco': 39.990000000000002}
+>>> dblivros.busca("l['Editora'] == 'Addison-Wesley Pub Co'")
+[{'Editora': 'Addison-Wesley Pub Co', 'Autores': ('Kent Beck', 'Martin Fowler'), 'ISBN': '0201710919', 'Paginas': 160, 'Titulo': 'Planning Extreme Programming', 'Preco': 29.949999999999999}, {'Editora': 'Addison-Wesley Pub Co', 'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'), 'ISBN': '0201708426', 'Paginas': 288, 'Titulo': 'Extreme Programming Installed', 'Preco': 29.949999999999999}, {'Editora': 'Addison-Wesley Pub Co', 'Autores': ('James W. Newkirk', 'Robert C. Martin'), 'ISBN': '0201709376', 'Paginas': 207, 'Titulo': 'Extreme Programming in Practice', 'Preco': 29.989999999999998}]
+>>> 

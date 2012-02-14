@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Buscar Livros</title>
+</head>
+<body>
+  <h1>Buscar Livros</h1>
+
+  <form action="/cgi-bin/buscalivro.cgi.py">
+    <p>
+      Título: <input name="titulo" /><br />
+      Autor: <input name="autor" /><br />
+      ISBN: <input name="isbn" /><br />
+      Editora: <input name="editora" /><br />
+      Páginas: entre <input name="paginas_min" />
+      e <input name="paginas_max" /><br />
+      Preço: entre <input name="preco_min" />
+      e <input name="preco_max" /><br />
+      <input type="submit" value="Busca" />
+    <p>
+  </form>
+
+  <form action="/cgi-bin/buscalivro.cgi.py">
+    <h3>Busca avançada</h3>
+    <p>Digite uma expressão Python:
+      <input name="expr" />
+      <input type="submit" value="Busca" />
+    </p>
+  </form>
+</body>
+</html>

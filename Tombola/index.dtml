@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title><dtml-var title_or_id></title>
+  </head>
+  <body>
+    <dtml-var manage_tabs>
+
+    <h2><dtml-var title_or_id></h2>
+
+    This is <dtml-var title_and_id>.<p>
+    As bolas:
+    <ol>
+    <dtml-in listar_bolas>
+       <li><dtml-var sequence-item html_quote>
+    </dtml-in>
+    </ol>
+    Um sorteio: <dtml-var sortear>
+
+  </body>
+</html>

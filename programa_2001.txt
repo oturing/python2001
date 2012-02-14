@@ -1,0 +1,190 @@
+.. Este roteiro de curso foi desenvolvido na Hiperlógica 
+.. em janeiro de 2001 por:
+.. Lalo Martins, Leonardo Rochael Almeida e Luciano Ramalho.
+.. Copyright (c) 2001 Hiperlógica Informática e Educação Ltda.
+
+===================================
+Programacao em Python (versao 2001)
+===================================
+
+-   Introdução
+
+    -   Características básicas
+    -   Ambientes de execução
+    -   Comparação com outras linguagens
+    -   **Exercício:** Hello World em três ambientes
+    
+        -   interpretador interativo
+        -   interpretador com script
+        -   IDLE
+        
+    -   *Referências:* The Quick Python Book (QPB), caps. 1 a 3    
+        
+-   Sintaxe básica
+
+    -   Comentários (QPB p. 44)
+    -   Tipos de dados primitivos (QPB p. 30, 45)
+    
+        -   Números
+        -   Strings
+        -   Listas
+        -   Tuplas
+        -   Dicionários
+        -   None
+        
+    -   Comandos simples
+    
+        -  print
+        -  mport
+        
+    -   Atribuição (QPB p. 44)
+    
+        -   A metáfora do Post-It
+        -   Atribuição simples
+        -   Atribuição múltipla
+        -   del
+        
+    -   Comandos de bloco (QPB p. 42, 36)
+    
+        -   Indentação
+        -   Exemplos
+        
+    -   Operadores Primitivos
+    
+        -   Aritméticos
+        -   Relacionais
+        -   Lógicos
+        
+    -   *Referências:* QPB caps. 4 e 5
+             
+-   Tipos de dados primitivos
+
+    -   Sequências
+    
+        -   Operações com sequências
+        -   Listas e suas operações específicas
+        -   Strings e suas operações específicas
+        
+            -   Operadores * e %
+            -   Caracteres especiais
+            -   Strings cruas (raw strings)
+            -   Módulo string
+            -   Formatação
+            
+        -   Tuplas
+        
+    -   Dicionários e suas operações
+    -   **Exercício:** listas de dicionários
+    -   *Referências:* QPB caps. 6 a 8
+    
+-   Controle de fluxo
+
+    -   ``if/elif/else``
+    -   ``while/else``
+    -   ``for/else``
+    -   ``try/except/else``
+    -   ``try/finally``
+    -   **Exercício:** busca com condição
+    -   *Referências:* QPB caps. 9 e 14
+    
+-   Funções
+
+    -   Sintaxe
+    -   Funções como objetos
+    -   Passagem de parâmetros
+    -   Programação funcional
+    -   Escopo de variáveis
+    
+        -   Comando ``global``
+        
+    -   *Referências:* QPB cap. 10
+
+-   Módulos
+
+    -   Definição
+    -   Semântica da importação
+    
+        -   ``if __name__ == '__main__':``
+        
+    -   Mecanismo de busca de módulos
+    -   Nomes "privativos"
+    -   *Referências:* QPB cap. 11
+    
+-   Manipulação de arquivos
+
+    -   Funções primitivas
+    -   Lendo e escrevendo textos e dados
+    -   Operações com diretórios e sistemas de arquivos
+    -   Objetos em conserva (serialização)
+    -   **Exercício:** banco de dados básico com armazenagem em arquivo
+    -   *Referências:* QPB caps. 12 e 13
+
+-   Orientação a objetos
+
+    -   Definindo classes
+    -   Variáveis e métodos de instâncias
+    -   Herança
+    -   Varíaveis e métodos privativos
+    -   Regras de escopo
+    -   Destrutores e gerenciamento de memória
+    -   **Exercício:** refatorar o exercício anterior para usar classes
+    -   *Referências:* QPB cap. 16
+    
+-   Exceções
+
+    -   Classes pré-definidas
+    -   Definição
+    -   ``try/except/else``
+    -   ``try/finally``
+    -   *Referências:* QPB cap. 14
+
+-   Orientação a objetos avançada
+
+    -   Sobrecarga de operadores
+    -   Outros métodos e atributos especiais
+    -   **Exemplo:** Tombola
+    -   **Exercício:** fazer o banco de dados do exerício anterior emular uma lista/dicionário
+    -   *Referências:* QPB cap. 16
+
+-   Recursos avançados
+
+    -   Pacotes
+    -   Expressões regulares
+    -   Toolkits para interface gráfica
+    -   Tkinter básico
+    -   Demonstração de pyglade
+    -   *Referências:* 
+    
+        -   QPB caps. 17, 18 e 21
+        -   http://www.python.org/topics/tkinter/
+        -   http://theopenlab.uml.edu/pygtools/
+        -   http://www.baypiggies.net/10mintig.html
+        -   http://techst02.technion.ac.il/~sbaruch/ (2003-05-10: Forbidden)
+        -   http://laguna.fmedic.unam.ms/~daniel/pygtutorial/ (2003-05-10: Not found)
+
+-   Programação para web
+
+    -   CGI
+    
+        -   DocumentTemplate
+        -   ZPublisher
+        
+    -   Extendendo o Zope
+    
+        -   External Methods
+        
+    -   *Referências:* 
+    
+        -   QPB cap. 26  
+        -   http://www.zope.org
+  
+-   Refactoring
+
+    -   O que é eXtreme Programming
+    -   O que é Refactoring
+    -   Unit testing
+    -   **Exemplo:** locadora de vídeo
+    -   *Referências:*
+    
+        -   http://www.hiper.com.br/luciano/refactor/
+        

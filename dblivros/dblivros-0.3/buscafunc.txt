@@ -1,0 +1,41 @@
+Python 2.0.1 (#0, Jun 23 2001, 23:50:30) 
+[GCC 2.95.4 20010319 (Debian prerelease)] on linux2
+Type "copyright", "credits" or "license" for more information.
+IDLE 0.6 -- press F1 for help
+>>> def busca(condicao):
+	res = []
+	for l in livros:
+		if eval(condicao):
+			res.append(l)
+	return res
+
+>>> busca("l['Editora'] == 'Addison-Wesley Pub Co'")
+[{'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201710919', 'Autores': ('Kent Beck', 'Martin Fowler'), 'Titulo': 'Planning Extreme Programming', 'Paginas': 160}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201708426', 'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'), 'Titulo': 'Extreme Programming Installed', 'Paginas': 288}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.989999999999998, 'ISBN': '0201709376', 'Autores': ('James W. Newkirk', 'Robert C. Martin'), 'Titulo': 'Extreme Programming in Practice', 'Paginas': 207}]
+>>> def buscagen(lista, condicao):
+	res = []
+	for l in lista:
+		if eval(condicao):
+			res.append(l)
+	return res
+
+>>> buscagen(livros, "l['Editora'] == 'Addison-Wesley Pub Co'")
+[{'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201710919', 'Autores': ('Kent Beck', 'Martin Fowler'), 'Titulo': 'Planning Extreme Programming', 'Paginas': 160}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201708426', 'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'), 'Titulo': 'Extreme Programming Installed', 'Paginas': 288}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.989999999999998, 'ISBN': '0201709376', 'Autores': ('James W. Newkirk', 'Robert C. Martin'), 'Titulo': 'Extreme Programming in Practice', 'Paginas': 207}]
+>>> def Zbusca(lista, condicao):
+	res = []
+	for l in lista:
+		if eval(condicao, globals(), l):
+			res.append(l)
+	return res
+
+>>> Zbusca(livros, "Editora == 'Addison-Wesley Pub Co'")
+[{'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201710919', 'Autores': ('Kent Beck', 'Martin Fowler'), 'Titulo': 'Planning Extreme Programming', 'Paginas': 160}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201708426', 'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'), 'Titulo': 'Extreme Programming Installed', 'Paginas': 288}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.989999999999998, 'ISBN': '0201709376', 'Autores': ('James W. Newkirk', 'Robert C. Martin'), 'Titulo': 'Extreme Programming in Practice', 'Paginas': 207}]
+>>> def buscafilt(lista, condicao):
+	def atende(elemento, condicao=condicao):
+		return eval(condicao)
+	return filter(atende, lista)
+
+>>> buscafilt(livros, "l['Editora'] == 'Addison-Wesley Pub Co'")
+[{'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201710919', 'Autores': ('Kent Beck', 'Martin Fowler'), 'Titulo': 'Planning Extreme Programming', 'Paginas': 160}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201708426', 'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'), 'Titulo': 'Extreme Programming Installed', 'Paginas': 288}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.989999999999998, 'ISBN': '0201709376', 'Autores': ('James W. Newkirk', 'Robert C. Martin'), 'Titulo': 'Extreme Programming in Practice', 'Paginas': 207}]
+>>> filter(lambda l: l['Editora'] == 'Addison-Wesley Pub Co', livros)
+[{'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201710919', 'Autores': ('Kent Beck', 'Martin Fowler'), 'Titulo': 'Planning Extreme Programming', 'Paginas': 160}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201708426', 'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'), 'Titulo': 'Extreme Programming Installed', 'Paginas': 288}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.989999999999998, 'ISBN': '0201709376', 'Autores': ('James W. Newkirk', 'Robert C. Martin'), 'Titulo': 'Extreme Programming in Practice', 'Paginas': 207}]
+>>> 

@@ -1,0 +1,108 @@
+(lp0
+(dp1
+S'Editora'
+p2
+S'New Riders Publishing'
+p3
+sS'Paginas'
+p4
+I384
+sS'ISBN'
+p5
+S'0735711372'
+p6
+sS'Preco'
+p7
+F39.990000000000002
+sS'Titulo'
+p8
+S'The Zope Book'
+p9
+sS'Autores'
+p10
+(S'Amos Latteier'
+p11
+S'Michel Pelletier'
+p12
+tp13
+sa(dp14
+g2
+S'Manning Publications Company'
+p15
+sg4
+I422
+sg5
+S'1884777740'
+p16
+sg7
+F39.950000000000003
+sg8
+S'The Quick Python Book'
+p17
+sg10
+(S'Daryl D. Harms'
+p18
+S'Kenneth McDonald'
+p19
+tp20
+sa(dp21
+g2
+S'Addison-Wesley Pub Co'
+p22
+sg4
+I160
+sg5
+S'0201710919'
+p23
+sg7
+F29.949999999999999
+sg8
+S'Planning Extreme Programming'
+p24
+sg10
+(S'Kent Beck'
+p25
+S'Martin Fowler'
+p26
+tp27
+sa(dp28
+g2
+g22
+sg4
+I288
+sg5
+S'0201708426'
+p29
+sg7
+F29.949999999999999
+sg8
+S'Extreme Programming Installed'
+p30
+sg10
+(S'Ron Jeffries'
+p31
+S'Ann Anderson'
+p32
+S'Chet Hendrickson'
+p33
+tp34
+sa(dp35
+g2
+g22
+sg4
+I207
+sg5
+S'0201709376'
+p36
+sg7
+F29.989999999999998
+sg8
+S'Extreme Programming in Practice'
+p37
+sg10
+(S'James W. Newkirk'
+p38
+S'Robert C. Martin'
+p39
+tp40
+sa.

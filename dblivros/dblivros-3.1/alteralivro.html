@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Alterar Livros</title>
+</head>
+<body>
+  <h1>Alterar Livros</h1>
+
+  <form action="/cgi-bin/alteralivro.cgi.py">
+    <p>
+      ISBN cadastrado: <input name="isbn_o" /><br />
+    </p>
+      <h3>Novos dados:</h3>
+    <p>
+      Título: <input name="titulo" /><br />
+      Autores: <textarea rows="3" name="autor"></textarea> (um por linha)<br />
+      ISBN: <input name="isbn" /><br />
+      Editora: <input name="editora" /><br />
+      Páginas: <input name="paginas" /><br />
+      Preço: <input name="preco" /><br />
+      <input type="submit" value="Alterar" />
+    </p>
+  </form>
+</body>
+</html>

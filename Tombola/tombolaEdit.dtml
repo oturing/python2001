@@ -1,0 +1,41 @@
+<html>
+  <head><title>Edit <!--#var title_or_id--></title></head>
+  <body bgcolor="#FFFFFF" link="#000099" vlink="#555555" alink="#77003B">
+    <!--#var manage_tabs-->
+
+    <h2>Edit <!--#var title_or_id--></h2>
+
+    <form action="manage_edit" method="POST">
+      <table cellspacing="2">
+
+        <tr>
+	  <th align="LEFT" valign="TOP">Id</th>
+	  <td align="LEFT" valign="TOP"><!--#var id--></td>
+	</tr>
+
+	<tr>
+	  <th align="LEFT" valign="TOP"><em>Title</em></th>
+	  <td align="LEFT" valign="TOP">
+	    <input type="TEXT" name="title" size="50"
+                   value="<!--#var title-->">
+	  </td>
+	</tr>
+
+	<tr>
+	  <th align="LEFT" valign="TOP"><em>Qt. bolas</em></th>
+	  <td align="LEFT" valign="TOP">
+	    <input type="TEXT" name="bolas:tokens" size="50"
+                   value="?">
+	  </td>
+	</tr>
+
+	<tr>
+	  <td></td>
+	  <td><br><input type="SUBMIT" value="Change"></td>
+	</tr>
+
+      </table>
+    </form>
+
+  </body>
+</html>

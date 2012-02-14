@@ -1,0 +1,12 @@
+#!/home/zope/hiper1/pcgi/pcgi-wrapper
+PCGI_NAME=Main
+PCGI_MODULE_PATH=/home/zope/hiper1/lib/python/Main.py
+PCGI_PUBLISHER=/home/zope/hiper1/pcgi/pcgi_publisher.py
+PCGI_EXE=/usr/local/bin/python
+PCGI_SOCKET_FILE=/home/zope/hiper1/var/pcgi.soc
+PCGI_PID_FILE=/home/zope/hiper1/var/pcgi.pid
+PCGI_ERROR_LOG=/home/zope/hiper1/var/pcgi.log
+PCGI_DISPLAY_ERRORS=1
+BOBO_REALM=Zope
+BOBO_DEBUG_MODE=1
+INSTANCE_HOME=/home/zope/hiper1

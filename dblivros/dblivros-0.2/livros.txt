@@ -1,0 +1,40 @@
+Python 2.0.1 (#0, Jun 23 2001, 23:50:30) 
+[GCC 2.95.4 20010319 (Debian prerelease)] on linux2
+Type "copyright", "credits" or "license" for more information.
+IDLE 0.6 -- press F1 for help
+>>> livros = [{}, {}, {}, {}]
+>>> livros[0] = {'Titulo': 'The Zope Book',
+	     'Autores': ('Amos Latteier', 'Michel Pelletier'),
+	     'ISBN': '0735711372',
+	     'Paginas': 384,
+	     'Editora': 'New Riders Publishing',
+	     'Preco': 39.99}
+>>> livros[1] = {'Titulo': 'The Quick Python Book',
+	     'Autores': ('Daryl D. Harms', 'Kenneth McDonald'),
+	     'ISBN': '1884777740',
+	     'Paginas': 422,
+	     'Editora': 'Manning Publications Company',
+	     'Preco': 39.95}
+>>> livros[2] = {'Titulo': 'Planning Extreme Programming',
+	     'Autores': ('Kent Beck', 'Martin Fowler'),
+	     'ISBN': '0201710919',
+	     'Paginas': 160,
+	     'Editora': 'Addison-Wesley Pub Co',
+	     'Preco': 29.95}
+>>> livros[3] = {'Titulo': 'Extreme Programming Installed',
+	     'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'),
+	     'ISBN': '0201708426',
+	     'Paginas': 288,
+	     'Editora': 'Addison-Wesley Pub Co',
+	     'Preco': 29.95}
+>>> livros
+[{'Editora': 'New Riders Publishing', 'Preco': 39.990000000000002, 'ISBN': '0735711372', 'Autores': ('Amos Latteier', 'Michel Pelletier'), 'Titulo': 'The Zope Book', 'Paginas': 384}, {'Editora': 'Manning Publications Company', 'Preco': 39.950000000000003, 'ISBN': '1884777740', 'Autores': ('Daryl D. Harms', 'Kenneth McDonald'), 'Titulo': 'The Quick Python Book', 'Paginas': 422}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201710919', 'Autores': ('Kent Beck', 'Martin Fowler'), 'Titulo': 'Planning Extreme Programming', 'Paginas': 160}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201708426', 'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'), 'Titulo': 'Extreme Programming Installed', 'Paginas': 288}]
+>>> livros.append({'Titulo': 'Extreme Programming in Practice',
+	     'Autores': ('James W. Newkirk', 'Robert C. Martin'),
+	     'ISBN': '0201709376',
+	     'Paginas': 207,
+	     'Editora': 'Addison-Wesley Pub Co',
+	     'Preco': 29.99})
+>>> livros
+[{'Editora': 'New Riders Publishing', 'Preco': 39.990000000000002, 'ISBN': '0735711372', 'Autores': ('Amos Latteier', 'Michel Pelletier'), 'Titulo': 'The Zope Book', 'Paginas': 384}, {'Editora': 'Manning Publications Company', 'Preco': 39.950000000000003, 'ISBN': '1884777740', 'Autores': ('Daryl D. Harms', 'Kenneth McDonald'), 'Titulo': 'The Quick Python Book', 'Paginas': 422}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201710919', 'Autores': ('Kent Beck', 'Martin Fowler'), 'Titulo': 'Planning Extreme Programming', 'Paginas': 160}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.949999999999999, 'ISBN': '0201708426', 'Autores': ('Ron Jeffries', 'Ann Anderson', 'Chet Hendrickson'), 'Titulo': 'Extreme Programming Installed', 'Paginas': 288}, {'Editora': 'Addison-Wesley Pub Co', 'Preco': 29.989999999999998, 'ISBN': '0201709376', 'Autores': ('James W. Newkirk', 'Robert C. Martin'), 'Titulo': 'Extreme Programming in Practice', 'Paginas': 207}]
+>>> 

@@ -1,0 +1,9 @@
+h1, h2, h3 {font-family: Verdana; font-weigth: bold}
+h1 {font-size: 18pt}
+h2 {font-size: 14pt}
+h3 {font-size: 12pt}
+
+a:link {color: #3ca897; text-decoration: none}
+a:hover {text-decoration: underline}
+a:active {color: #ff7777}
+a:visited {color: #00a800; text-decoration: none}

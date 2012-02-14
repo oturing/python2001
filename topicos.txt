@@ -1,0 +1,118 @@
+CURSO - Programação em Python
+
+Introdução à linguagem Python
+	Características básicas
+	Ambiente de execução
+	Comparação com outras linguagens
+	
+Primeiros passos
+	Formas de executar scripts e comandos
+	Hello World em três ambientes
+		Interpretador interativo
+		Interpretador com script
+		IDE (IDLE)
+
+Visão Geral
+	Tipos de dados primitivos
+		Números
+		Strings
+		Listas
+		Dicionários
+		None
+	Controle de fluxo
+		if/else
+		while
+		for
+		try/except
+	Funções
+	Módulos
+		from/import
+	Classes
+
+Sintaxe básica
+	Comentários
+	Constantes string
+	Comandos simples
+		print
+		import
+	Atribuição
+		A metáfora do Post-It
+		Atribuição simples
+		Atribuição múltipla
+		del
+	Comandos de bloco
+		Indentação
+		Exemplos
+	Operadores primitivos
+		Aritméticos
+		Relacionais
+		Lógicos
+
+Tipos de dados primitivos
+	Seqüências
+		Operações com seqüências
+		Listas e suas operações específicas
+		Strings e suas operações específicas
+			Operadores * e %
+			Caracteres especiais
+			Raw strings (r'')
+			Módulo string
+			Formatação
+		Tuplas
+	Dicionários e suas operações
+	
+Controle de fluxo
+	if/elif/else
+	while/else
+	for/else
+	try/except/else
+	try/finally
+
+Funções
+	Sintaxe
+	Funções como objetos
+	Passagem de parâmetros
+	Programação funcional
+	Escopo de variáveis
+		Comando global
+
+Módulos
+	Definição
+	Semântica da importação
+		if __name__ == '__main__':
+	Mecanismo de busca de módulos
+	Nomes "privativos"
+
+Manipulação de arquivos
+	Funções primitivas
+	Lendo e escrevendo textos e dados
+	Operações com diretórios e sistemas de arquivos
+	Objetos em conserva (serialização)
+	
+Exceções
+	Classes pré-definidas
+	Definição
+	try/except/else
+	try/finally
+	
+Orientação a objetos
+	Definindo classes
+	Variáveis e métodos de instâncias
+	Herança
+	Variáveis e métodos privativos
+	Regras de escopo
+	Destrutores e gerenciamento de memória
+	
+Tópicos avançados
+	Pacotes
+	Atributos e métodos especiais
+		Sobrecarga de operadores
+	Exemplo de código OO: Tombola	
+	Expressões regulares
+	Interfaces gráficas
+	CGI
+		DocumentTemplate
+		ZPublisher
+	Extendendo Zope
+		External Methods
+	Refactoring
